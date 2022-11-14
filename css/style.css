@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+#navbar {
+    background-color: black;
+    height: 50px;
+
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar h1{
+    float: left;
+    padding: 0px 0px 2px 16px;
+    color: white;
+    font-family: DEADLY KILLERS DEMO;
+    font-size: 150%;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar li{
+    padding: 5px 0px 0px 20px;
+    float: left;
+    display: block;
+    text-decoration: none;
+    font-family: DEADLY KILLERS DEMO;
+    font-size: 120%;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #c2c2c2;
+}
+#navbar a:hover {
+    color: #8e11c2;
+    text-shadow: 0 0 6px #cc31eb;
+}
+
+#introduction p{
+    margin-bottom: 10px;
+    font-family: Metropolitan;
+    font-size: 250%;
+}
+
+#introduction2 p{
+    margin-bottom: 10px;
+    font-family: Metropolitan;
+    font-size: 170%;
+}
+.info{
+    text-align: center;
+    padding-top: 700px;
+    line-height: 2.2em;
+}
+.info2{
+    text-align: center;
+    padding-top: 20px;
+    line-height: 2.2em;
+}
+
+#introduction3{
+    padding: 20px;
+    text-align: justify;
+    padding-top: 200px;
+}
+
+#introduction3 h2{
+    width: 50;
+    font-family: DEADLY KILLERS DEMO;
+    padding-bottom: 50px;
+}
+#softwares {
+    padding: 20px;
+    text-align: justify;
+}
+#softwares .apps{
+    width: 10%;
+    float: auto;
+}
+
+#videoswip .gdriveVideos {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
